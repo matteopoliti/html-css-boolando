@@ -12,6 +12,11 @@ html{
 header{
     background-color:#ff6900; 
     padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 2px 1px 12px #888888;
 }
 
 .container{
@@ -44,3 +49,4 @@ header ul li a{
 header figure img{
     width: 120px;
 }
+
