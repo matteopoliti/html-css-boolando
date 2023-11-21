@@ -123,6 +123,22 @@ main div.flex-main{
 
 main .card{
     flex-basis: 32%;
-
 }
 
+main .card figure .heart:hover{
+    color: red;
+}
+
+.img1 {
+    display: block;
+}
+.img2 {
+    display: none;
+}
+
+.change:hover .img1 {
+   display: none;
+}
+.change:hover .img2 {
+   display: block;
+}
