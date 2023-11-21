@@ -105,8 +105,8 @@ main .card figure .discount-position .back-green{
 
 main .card figure .heart{
     background-color: white;
-    padding: 10px 20px;
-    font-size: 50px;
+    padding: 10px 15px;
+    font-size: 35px;
 }
 
 main .card figure .heart-position{
@@ -118,11 +118,11 @@ main .card figure .heart-position{
 main div.flex-main{
     display: flex;
     gap: 20px;
-    
+    flex-wrap: wrap;
 }
 
 main .card{
-    flex-basis: 30%;
+    flex-basis: 32%;
 
 }
 
