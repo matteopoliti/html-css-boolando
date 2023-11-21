@@ -10,13 +10,14 @@ html{
 }
 
 header{
-    background-color:#ff6900; 
+    background-color:#ff6900;
     padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     box-shadow: 2px 1px 12px #888888;
+    z-index: 1;
 }
 
 .container{
@@ -35,7 +36,7 @@ header ul{
     gap: 10px;
 }
 
-header ul li{
+ul li{
     list-style-type: none;
 }
 
@@ -50,3 +51,70 @@ header figure img{
     width: 120px;
 }
 
+main{
+    margin-top: 150px;
+}
+
+main div.flex-main{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+main div figure img{
+    width: 100%;
+}
+
+main .card ul li:first-child{
+    text-transform: capitalize;
+}
+
+main .card ul li:nth-child(2){
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+main .card .red-text{
+    color: red;
+}
+
+main .card .line-through{
+    text-decoration: line-through;
+}
+
+main figure{
+    position: relative;
+    z-index: 0;
+}
+
+main .card figure .discount-position{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+main .card figure .discount-position .discount{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+main .card figure .discount-position .back-green{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+main .card figure .heart{
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 50px;
+}
+
+main .card figure .heart-position{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
