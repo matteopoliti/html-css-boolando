@@ -55,11 +55,7 @@ main{
     margin-top: 150px;
 }
 
-main div.flex-main{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-}
+
 
 main div figure img{
     width: 100%;
@@ -118,3 +114,15 @@ main .card figure .heart-position{
     top: 20px;
     right: 0;
 }
+
+main div.flex-main{
+    display: flex;
+    gap: 20px;
+    
+}
+
+main .card{
+    flex-basis: 30%;
+
+}
+
