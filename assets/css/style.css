@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid lime; */
+}
+
+html{
+    font-family: sans-serif;
+}
+
+header{
+    background-color:#ff6900; 
+    padding: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header figure img{
+    width: 120px;
+}
