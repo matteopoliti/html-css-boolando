@@ -53,6 +53,7 @@ header figure img{
 
 main{
     margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 
@@ -141,4 +142,33 @@ main .card figure .heart:hover{
 }
 .change:hover .img2 {
    display: block;
+}
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+footer .container{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container > div:first-child ul,
+footer .container > div:last-child ul{
+    display: flex;
+    gap: 10px;
+}
+
+footer ul{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+footer a{
+    font-size: 20px;
+    color: white;
 }
